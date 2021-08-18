@@ -22,3 +22,7 @@ func init() {
 		log.Fatal(err)
 	}
 }
+
+func GetSettings() Settings {
+	return settings
+}
