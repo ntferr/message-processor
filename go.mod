@@ -4,6 +4,7 @@ go 1.17
 
 require (
 	github.com/Netflix/go-env v0.0.0-20210215222557-e437a7e7f9fb // indirect
+	github.com/gin-contrib/cors v1.3.1 // indirect
 	github.com/gin-contrib/gzip v0.0.3 // indirect
 	github.com/gin-contrib/sse v0.1.0 // indirect
 	github.com/gin-gonic/gin v1.7.4 // indirect
