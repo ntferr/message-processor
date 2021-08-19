@@ -15,6 +15,8 @@ Serviço para processar uma mensagem SQS.
     - settings
     - utils
 
+## Arquitetura:
+
 ## Frameworks:
 
 ## Como subir o serviço no VS Code:
