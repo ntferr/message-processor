@@ -29,6 +29,6 @@ func Init() {
 func v1(router *gin.Engine) {
 	v1 := router.Group("/v1")
 	{
-		v1.POST("/login")
+		v1.POST("/login/create", CreateLogin)
 	}
 }
