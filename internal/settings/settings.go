@@ -11,6 +11,9 @@ type Settings struct {
 	Host string `env:"HOST"`
 
 	AWS struct {
+		URL        string `env:"QUEUE_URL,required"`
+		Region     string `env:"AWS_REGION,required"`
+		MaxRetries int    `env:"MAX_RETRIES,required"`
 	}
 }
 
