@@ -22,7 +22,7 @@ func CreateQueueClient() sqsiface.SQSAPI {
 func SendMessage(user models.User) {
 	message, err := json.Marshal(user)
 	if err != nil {
-		log.Fatalf("ain")
+		log.Fatalf("Error on send message")
 	}
 
 	svc := CreateQueueClient()
